@@ -9,9 +9,9 @@ To download Visual Studio Code, go to the website [Download VS Code](https://cod
 
 
 The next step would be to install git at [Download git](https://gitforwindows.org/)
-Open a new terminal in VS Code and type in **$ ssh acountName@ieng6.ucsd.edu**, replace "accountName" with your acount that starts with "cse15l." Type in "yes" to any question that potentially pops up. Then, enter the password you created for yourself to complete login.
+Open a new terminal in VS Code and type in **$ ssh accountName@ieng6.ucsd.edu**, replace "accountName" with your acount that starts with "cse15l." Type in "yes" to any question that potentially pops up. Finally, enter the password you created for your sccount to complete login.
 
-Your terminal should look similar to this screenshot after logged in.
+Your terminal should look similar to the picture below after logged in.
 
 
 ![Image](Screenshot2.png)
@@ -19,7 +19,7 @@ Your terminal should look similar to this screenshot after logged in.
 
 
 
-Congratulations! Now you have successfully connected to a computer in CSE Department. From now on, whatever commands you typed in will run on the computers at the basement of CSE building. It's the time to try out some commands to see what you will get. For Example:
+Congratulations! Now you have successfully connected to a computer in CSE Department. From now on, whatever commands you type in will run on the computers at the basement of CSE building. It's the time to try out some commands to see what you will get. For Example:
 *cd ~
 *pwd
 *ls
