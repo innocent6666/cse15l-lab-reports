@@ -9,7 +9,7 @@ To download Visual Studio Code, go to the website [Download VS Code](https://cod
 
 
 The next step would be to install git at [Download git](https://gitforwindows.org/)
-Open a new terminal in VS Code and type in **$ ssh acountName@ieng6.ucsd.edu** replace "accountName" with your acount that starts with "cse15l." Type in "yes" to any question that potentially pops up. Then, enter the password you created for yourself to complete login.
+Open a new terminal in VS Code and type in **$ ssh acountName@ieng6.ucsd.edu**, replace "accountName" with your acount that starts with "cse15l." Type in "yes" to any question that potentially pops up. Then, enter the password you created for yourself to complete login.
 
 Your terminal should look similar to this screenshot after logged in.
 
