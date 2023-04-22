@@ -25,20 +25,20 @@ Your terminal should look similar to the picture below after logged in.
 
 ## Trying Some Commands
 Congratulations! Now you have successfully connected to a computer in CSE Department. From now on, whatever commands you type in will run on the computers at the basement of CSE building. It's the time to try out some commands to see what you will get. For Example:
-* **cd ~**    "Change directory" <br>
+* **cd ~** <br>    "Change directory" <br>
 Output: Navigate to the home directory (for me it's: /home/linux/ieng6/cs15lsp23/cs15lsp23au)
-* **pwd**    "Print working directiry"<br>
+* **pwd**  <br>  "Print working directiry"<br>
 Output: /home/linux/ieng6/cs15lsp23/cs15lsp23au
-* **ls**  "List files in the given path" <br>
+* **ls** <br> "List files in the given path" <br>
 Output: cs15l2  cse15lab2  perl5
-* **ls -lat**   "List all files (include hidden files) by their modification time" <br>
+* **ls -lat**  <br> "List all files (include hidden files) by their modification time" <br>
 -rw-r--r--   1 cs15lsp23au ieng6_cs15lsp23  1005 Apr 22 15:05 .modulesbegenv ( more files following...)
-* **ls -a**  "List all files (include hidden files)" <br>
+* **ls -a** <br> "List all files (include hidden files)" <br>
 Output: .  ..  .bash_history  .cache  .config  .local  .modulesbegenv  .pki  .ssh  cs15l2  cse15lab2  perl5
-* **cat /home/linux/ieng6/cs15lsp23/public/hello.txt** "Print the content of files from the path"<br>
+* **cat /home/linux/ieng6/cs15lsp23/public/hello.txt** <br> "Print the content of files from the path"<br>
 Output: Hello!
 
-You can also use the screenshot below as an example of using commands. 
+You can also use the screenshot below as an example of trying commands. 
 
 
 ![Image](Screenshot3.png)
