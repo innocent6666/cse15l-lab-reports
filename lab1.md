@@ -25,29 +25,19 @@ Your terminal should look similar to the picture below after logged in.
 
 ## Trying Some Commands
 Congratulations! Now you have successfully connected to a computer in CSE Department. From now on, whatever commands you type in will run on the computers at the basement of CSE building. It's the time to try out some commands to see what you will get. For Example:
-* cd ~
-Output: 
-* pwd
-Output:
-/home/linux/ieng6/cs15lsp23/cs15lsp23au
-* ls
+* cd ~    "Change directory" <br>
+Output: Navigate to the home directory (for me it's: /home/linux/ieng6/cs15lsp23/cs15lsp23au)
+* pwd    "Print working directiry"<br>
+Output: /home/linux/ieng6/cs15lsp23/cs15lsp23au
+* ls  "List files in the given path" <br>
 Output: cs15l2  cse15lab2  perl5
-* ls -lat
--rw-r--r--   1 cs15lsp23au ieng6_cs15lsp23  1005 Apr 22 15:05 .modulesbegenv
--rw-------   1 cs15lsp23au ieng6_cs15lsp23   584 Apr 14 22:09 .bash_history
-drwxr-s---  10 cs15lsp23au ieng6_cs15lsp23  4096 Apr 14 21:29 .
-drwx--S---   2 cs15lsp23au ieng6_cs15lsp23  4096 Apr 14 21:14 .ssh
-drwxr-sr-x   3 cs15lsp23au ieng6_cs15lsp23  4096 Apr 14 21:13 .cache
-drwxr-sr-x   2 cs15lsp23au ieng6_cs15lsp23  4096 Apr 14 21:13 perl5
-drwxr-sr-x   3 cs15lsp23au ieng6_cs15lsp23  4096 Apr 14 21:13 .local
-drwxr-sr-x   3 cs15lsp23au ieng6_cs15lsp23  4096 Apr 14 21:13 .config
-drwxr-s---   3 cs15lsp23au ieng6_cs15lsp23  4096 Apr 14 21:04 cs15l2
-drwxr-S---   3 cs15lsp23au ieng6_cs15lsp23  4096 Apr 14 21:01 .pki
-drwxr-s---   3 cs15lsp23au ieng6_cs15lsp23  4096 Apr 14 20:59 cse15lab2
-drwxr-sr-x 509 cs15lsp23   ieng6_cs15lsp23 40960 Apr 13 01:17 ..
-* ls -a
-.  ..  .bash_history  .cache  .config  .local  .modulesbegenv  .pki  .ssh  cs15l2  cse15lab2  perl5
--bash-4.2$ 
+* ls -lat   "List all files (include hidden files) by their modification time" <br>
+-rw-r--r--   1 cs15lsp23au ieng6_cs15lsp23  1005 Apr 22 15:05 .modulesbegenv ( more files following...)
+* ls -a  "List all files(include hidden files)" <br>
+Output: .  ..  .bash_history  .cache  .config  .local  .modulesbegenv  .pki  .ssh  cs15l2  cse15lab2  perl5
+* cat /home/linux/ieng6/cs15lsp23/public/hello.txt "Print the content of files from the path"<br>
+Output: Hello!
+
 And the results you get should also look similar to the screenshot below:
 
 
