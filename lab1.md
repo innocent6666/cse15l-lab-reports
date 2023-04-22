@@ -25,7 +25,7 @@ Your terminal should look similar to the picture below after logged in.
 
 ## Trying Some Commands
 Congratulations! Now you have successfully connected to a computer in CSE Department. From now on, whatever commands you type in will run on the computers at the basement of CSE building. It's the time to try out some commands to see what you will get. For Example:
-* **cd ~** <br>    "Change directory" <br>
+* **cd** **~** <br>    "Change directory" <br>
 Output: Navigate to the home directory (for me it's: /home/linux/ieng6/cs15lsp23/cs15lsp23au)
 * **pwd**  <br>  "Print working directory"<br>
 Output: /home/linux/ieng6/cs15lsp23/cs15lsp23au
