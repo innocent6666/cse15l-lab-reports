@@ -27,12 +27,12 @@ Your terminal should look similar to the picture below after logged in.
 Congratulations! Now you have successfully connected to a computer in CSE Department. From now on, whatever commands you type in will run on the computers at the basement of CSE building. It's the time to try out some commands to see what you will get. For Example:
 * **cd ~** <br>    "Change directory" <br>
 Output: Navigate to the home directory (for me it's: /home/linux/ieng6/cs15lsp23/cs15lsp23au)
-* **pwd**  <br>  "Print working directiry"<br>
+* **pwd**  <br>  "Print working directory"<br>
 Output: /home/linux/ieng6/cs15lsp23/cs15lsp23au
 * **ls** <br> "List files in the given path" <br>
 Output: cs15l2  cse15lab2  perl5
 * **ls -lat**  <br> "List all files (include hidden files) by their modification time" <br>
--rw-r--r--   1 cs15lsp23au ieng6_cs15lsp23  1005 Apr 22 15:05 .modulesbegenv ( more files following...)
+Output: -rw-r--r--   1 cs15lsp23au ieng6_cs15lsp23  1005 Apr 22 15:05 .modulesbegenv ( more files following...)
 * **ls -a** <br> "List all files (include hidden files)" <br>
 Output: .  ..  .bash_history  .cache  .config  .local  .modulesbegenv  .pki  .ssh  cs15l2  cse15lab2  perl5
 * **cat /home/linux/ieng6/cs15lsp23/public/hello.txt** <br> "Print the content of files from the path"<br>
