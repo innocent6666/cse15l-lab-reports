@@ -1,5 +1,8 @@
-## Lab Report 2:
-# Handout 3:
+# Lab Report 2:
+## Part 1
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+## Handout 3:
 There are the four parts that form the URL. They are:
 * **Domain** <br>
 The part of the URL after *http://*
