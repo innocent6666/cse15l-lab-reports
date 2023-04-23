@@ -46,7 +46,7 @@ class StringServer {
 1. My code called the method url.getPath() and url.getQuery(). (It also called the method .contains, . equals and .split but they are just basic string methods.)
 2. The argument of url.getPath() is the Path of the URL, and its value is */add-message?s=What is today's date?* <br> The arguement of url.getQuery() is the Query of the URL , and its value is *s=What is today's date?*
 3. The value of the String str is updated to *What is today's date \n*
-<br> 
+
 ![Image](lab2Screenshot3.jpg)
 <br>
 1. My code called the method url.getPath() and url.getQuery(). 
