@@ -1,6 +1,6 @@
 # Lab Report 2:
 ## Part 1
-[Image](lab2 Screenshot1.jpg)
+[Image](lab2Screenshot1.png)
 ```
 # code block
 class Handler implements URLHandler {
