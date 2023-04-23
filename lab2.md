@@ -1,5 +1,33 @@
 # Lab Report 2:
 ## Part 1
+[Image](lab2 Screenshot1.jpg)
+```
+# code block
+class Handler implements URLHandler {
+    String str = "";
+
+    public String handleRequest(URI url) {
+        if (url.getPath().equals("/")) {
+            return String.format("Type in '/add-message?s=<string>' in URL to add messages!");
+        } else {
+            System.out.println("Path: " + url.getPath()); // What does this line do?
+            if (url.getPath().contains("/add-message")) {
+                String[] parameters = url.getQuery().split("=");
+                if (parameters[0].equals("s")) {
+                    str += parameters[1];
+                    str += "\n";
+                    return String.format(str);
+                }
+            }
+            return "404 Not Found!";
+        }
+    }
+}
+```
+
+
+
+
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 ## Handout 3:
