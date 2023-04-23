@@ -1,7 +1,6 @@
 # Lab Report 2:
 ## Part 1
 ```
-# code block
 import java.io.IOException;
 import java.net.URI;
 
@@ -52,8 +51,43 @@ class StringServer {
 1. My code called the method url.getPath() and url.getQuery(). 
 2. The argument of url.getPath() is the Path of the URL, and its value is */add-message?s=Saturday, April 22, 2023* <br> The arguement of url.getQuery() is the Query of the URL , and its value is *s=Saturday, April 22, 2023*
 3. The value of the String str is updated to *What is today's date \n Saturday, April 22, 2023 \n*
+<br>
+<br>
+<br>
+## Part 2
+I chose the bug of method ReverseInPlace in java file ArrayExamples
+<br>
+1. Failure-inducing input
 
-## Part 1
+```
+public void testReverseInPlace() {
+    int[] input1 = {1,2,3,4,5,6,7 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(input1,new int[]{1,2,3,4,3,2,1});
+}
+```
+
+<br>
+2. Positive Input
+
+```
+public void testReverseInPlace() {
+    int[] input1 = {1,2,3,4,3,2,1 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(input1,new int[]{1,2,3,4,3,2,1});
+}
+```
+
+<br>
+3. Symptoms of both inputs
+
+![Image](Input1symptom.jpg)
+
+![Image](Input2symptom.jpg)
+
+  
+
+
 
 
 
