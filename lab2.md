@@ -41,7 +41,12 @@ class StringServer {
 
 ```
 
+![Image](lab2Screenshot2.jpg)
 
+1. My code called the method url.getPath() and url.getQuery(). (It also called the method .contains, . equals and .split but they are just basic string methods.)
+2. The argument for url.getPath() is the Path of the URL, and its value is */add-message?s=What is today's date?* <br> The arguement for url.getQuery() is the query of the URL , and its value is *s=What is today's date?*
+3. The value of the String str then changed to *What is today's date \n*
+    
 
 
 
