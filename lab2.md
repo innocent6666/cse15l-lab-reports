@@ -54,7 +54,9 @@ class StringServer {
 <br>
 <br>
 <br>
+
 ## Part 2
+<br>
 I chose the bug of method ReverseInPlace in java file ArrayExamples
 <br>
 1. Failure-inducing input
@@ -79,7 +81,9 @@ public void testReverseInPlace() {
 ```
 
 <br>
-3. Symptoms of both inputs
+3. <br>
+Symptoms of both inputs <br>
+<br>
 
 ![Image](Input1symptom.jpg)
 
