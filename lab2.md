@@ -53,14 +53,14 @@ class StringServer {
 2. The argument of url.getPath() is the Path of the URL, and its value is */add-message?s=Saturday, April 22, 2023* <br> The arguement of url.getQuery() is the Query of the URL , and its value is *s=Saturday, April 22, 2023*
 3. The value of the String str is updated to *What is today's date \n Saturday, April 22, 2023 \n*
 
-
+## Part 1
 
 
 
 
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-## Handout 3:
+## Part 3(Something I learned from lab 2 or 3):
 There are the four parts that form the URL. They are:
 * **Domain** <br>
 The part of the URL after *http://*
