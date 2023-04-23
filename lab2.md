@@ -85,15 +85,37 @@ public void testReverseInPlace() {
 
 ![Image](Input2symptom.jpg)
 
-  
+4. <br>
+Original Code:
 
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+}
+```
 
+Fixed Code:
 
+```
+static void reverseInPlace(int[] arr) {
+    int[] temp = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1){
+      temp[i] = arr[i];
+    } 
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = temp[arr.length - i - 1];
+    }
+}
+```
 
-
-
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+The issue with the original code is that it uses the value of the second half of the array to replace the first half. However, once the second half is reached during the loop, the first half has already been updated with the values from its counterpart in the second half. This means that when applying reverseInPlace to the second half, we are simply reassigning the value of itself.
+<br>
+In the fixed code, I made a temporary copy of the array and used this copy to assign values when reversing. Thus, during the for loop, the values of the passed-in array are successfully swapped without modifying the original array. 
+<br>
+<br>
+<br>
 ## Part 3(Something I learned from lab 2 or 3):
 There are the four parts that form the URL. They are:
 * **Domain** <br>
