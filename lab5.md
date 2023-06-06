@@ -18,7 +18,7 @@ Tips: This is the command for Mac users, since the school's computer is operatin
 Thanks, now the files actually compile! The bug was that I used the compile commands for windows on my computer while it connected the ssh server, which actually runs on Linux. I have learnt that once we login into the school account we need to switch to the commands that runs on Linux system, since the computers here at UCSD is operating on Linux system (which also uses commands for Macs)!
 
 ---
-3.
+3。
 * The file is the same file we used for lab 7, in which we are asked to cloned the repository, change the working directory to lab 7 and then compile the file. The bash script is provided as below (using vim editor):
 ![Image](Lab5-3.jpg)
 <br>
