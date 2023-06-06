@@ -48,8 +48,7 @@ Thanks, now the files actually compile! The bug was that I used the compile comm
       index1 += 1;
     }
     return result;
-  } 
- ```
+  }  ```
   
 * The command line argument I ran to trigger the bug is:
 
