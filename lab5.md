@@ -25,7 +25,8 @@ Thanks, now the files actually compile! The bug was that I used the compile comm
 
 * The contents of all the file is listed below:
 
-```// Takes two sorted list of strings (so "a" appears before "b" and so on),
+```
+  // Takes two sorted list of strings (so "a" appears before "b" and so on),
   // and return a new list that has all the strings in both list in sorted order.
   static List<String> merge(List<String> list1, List<String> list2) {
     List<String> result = new ArrayList<>();
@@ -54,16 +55,18 @@ Thanks, now the files actually compile! The bug was that I used the compile comm
 
 ```
 
-  <br>
 * The command line argument I ran to trigger the bug is:
 
-``` javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java ```
+``` 
+javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java 
+```
 
 * To fix the bug, I should instead run: 
 
 ``` 
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamples 
+
 ```
 
 <br>
