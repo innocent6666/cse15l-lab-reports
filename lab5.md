@@ -52,7 +52,7 @@ Thanks, now the files actually compile! The bug was that I used the compile comm
     return result;
   }  
   ```
-  
+  <br>
 * The command line argument I ran to trigger the bug is:
 
 ``` javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java ```
@@ -63,5 +63,5 @@ Thanks, now the files actually compile! The bug was that I used the compile comm
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamples 
 ```
-
+<br>
 I picked this bug since in lab7's there were few instructions about how to compile the files. Because of I am working on windows, I assumed it would be the same command as I used in lab3 to compile a bunch of files with class path. I ran into this issue and couldn't figure out the solution for hours until I reached out to my TA to switch commands. 
