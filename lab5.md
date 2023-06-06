@@ -2,8 +2,9 @@
 
 
 The Edstem question is listed below:
-![Image](Lab5-1.jpg)
 <br><br>
+![Image](Lab5-1.jpg)
+<br><br><br><br><br><br>
 
 1. TA's response:
 
