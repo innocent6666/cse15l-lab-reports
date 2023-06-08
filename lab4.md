@@ -15,11 +15,11 @@ to see that it actually fails.
 ![Image](lab5-3.jpg)
 ![Image](lab5-4.jpg)
 
-I them typed in *<vim ListExamples.java>* to edit the file
+I them typed in *<jjjjjjjjjli backspace 2 esc :wq>* to edit the file
   
 ![Image](lab5-5.jpg)
   
-I typed in *<jjjjjjjjjli backspace 2 esc :wq>* to changed and saved file. 
+I typed in *<vim ListExamples.java>* to changed and saved file. 
   
 ![Image](lab5-6.jpg)
 ![Image](lab5-7.jpg)
