@@ -31,7 +31,6 @@ Then I typed in <*up up up enter*> to recompile the file using the command
 ![Image](lab5-7.jpg)
  
 In the end, I commited the changes to the github with the keys *git add --all <enter> git commit -m "lab7"  <enter>  git push <enter>*.
-    
 ![Image](lab5-8.jpg)
   
   
